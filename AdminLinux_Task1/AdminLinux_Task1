@@ -1,0 +1,26 @@
+#!/bin/bash
+echo  "*******************"
+ls  ~
+echo  "*******************"
+pwd
+echo  "*******************"
+mkdir  ~/myDirectory
+#echo  "*******************"
+ls ~
+echo  "*******************"
+mkdir  ~/myDirectory/secondDirectory
+#echo  "*******************"
+ls  ~/myDirectory
+echo  "*******************"
+touch ~/myDirectory/secondDirectory/myNotePaper
+#echo  "*******************"
+ls ~/myDirectory/secondDirectory
+echo  "*******************"
+cp  ~/myDirectory/secondDirectory/myNotePaper  ~/myDirectory/myOldNotePaper
+#echo  "******************"
+ls  ~/myDirectory ~/myDirectory/secondDirectory
+echo  "******************"
+echo  "Delete"
+rm -r  ~/myDirectory
+echo  "******************"
+ls ~
