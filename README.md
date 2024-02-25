@@ -1,2 +1,2 @@
-# Embedded_Linux
+# Embedded Linux
 Embedded Linux NTI
