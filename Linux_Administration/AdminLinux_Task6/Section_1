@@ -1,0 +1,19 @@
+#!/bin/bash
+sudo mkdir  /home/myteam
+ls -lla /home/
+sudo chmod 475 /home/myteam
+ls -lla /home/
+#su
+ls -lla /home/
+pwd
+cd /home/myteam #why?
+#set $PWD=/home/myteam
+touch oldpasswd
+ls -l
+chmod g+wr o+x oldpasswd
+sudo chmod g-r,g+x,o-r,o+x oldpasswd
+sudo chmod 631 oldpasswd
+ls -l
+#youmask 
+
+

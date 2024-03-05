@@ -1,0 +1,12 @@
+#!/bin/bash
+# Create a new directory.
+mkdir testDir
+ls -l
+sudo chmod o+t testDir
+sudo chmod g+s testDir
+ls -l
+mkdir testDirOther
+ls -l
+sudo chmod 777 testDirOther
+ls -l
+

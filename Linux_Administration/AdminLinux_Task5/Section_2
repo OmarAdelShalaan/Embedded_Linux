@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo groupadd --gid 30000 pgroup
+cat /etc/group | grep pgroup
+sudo usermod -L adel
+ls -lla /home
+sudo deluser  -f adel
+sudo rm -r /home/adel
+sudo delgroup  pgroup
+sudo delgroup  shalaan
+cat /etc/group | grep pgroup
+ls -lla /home
