@@ -1,6 +1,6 @@
 # crosstool-NG
 
-### [Documentation](https://crosstool-ng.github.io/docs/) [Repo](https://github.com/crosstool-ng/crosstool-ng)
+### ([Documentation](https://crosstool-ng.github.io/docs/)) ([Repo](https://github.com/crosstool-ng/crosstool-ng))
 
 ## Installing crosstool-NG
 1. git clone https://github.com/crosstool-ng/crosstool-ng
