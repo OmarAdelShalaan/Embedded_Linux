@@ -18,3 +18,6 @@
 ## Building the Toolchain
 - ./ct-ng build
 
+
+## To ADD ct-ng to $PATH
+export PATH=$PATH:(PWD OF Crosstool DIR) 
