@@ -3,7 +3,7 @@
 ### ([Documentation](https://crosstool-ng.github.io/docs/)) ([Repo](https://github.com/crosstool-ng/crosstool-ng))
 
 ## Install Dependencies:
-- sudo apt install -y gcc g++ gperf bison flex texinfo help2man make libncurses5-dev python3-dev autoconf automake libtool-bin gawk wget bzip2 xz-utils unzip patch libstdc++6 rsync
+  sudo apt install -y gcc g++ gperf bison flex texinfo help2man make libncurses5-dev python3-dev autoconf automake libtool-bin gawk wget bzip2 xz-utils unzip patch libstdc++6 rsync
 
 
 ## Installing crosstool-NG
