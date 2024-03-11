@@ -7,12 +7,12 @@
 
 
 ## Installing crosstool-NG
-- git clone https://github.com/crosstool-ng/crosstool-ng
-- git checkout 25f6dae8
-- ./bootstrap
-- ./configure --enable-local
-- make
-- ./ct-ng help 
+  - git clone https://github.com/crosstool-ng/crosstool-ng
+  - git checkout 25f6dae8
+  - ./bootstrap
+  - ./configure --enable-local
+  - make
+  - ./ct-ng help 
 
 ## Configuring crosstool-NG
 - ./ct-ng menuconfig
